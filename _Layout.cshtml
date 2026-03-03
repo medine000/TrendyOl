@@ -1,0 +1,47 @@
+﻿@* <!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="utf-8" />
+    <title>Mini Trendyol</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">MiniTrendyol</div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Məhsul axtar..." />
+            <button>🔍</button>
+        </div>
+
+        <div class="menu">
+            <a href="#">Giriş</a>
+            <a href="#">Qeydiyyat</a>
+            <a href="#">🛒 Səbət</a>
+        </div>
+    </header>
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+</body>
+</html> *@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Trendyol</title>
+    <!-- CSS-lər bura gəlir -->
+</head>
+<body>
+    <header>
+        <h2 style="color: #f27a1a; text-align: center;">Trendyol</h2>
+    </header>
+
+    <div class="container">
+        @RenderBody()  <!-- BU SƏTİR MÜTLƏQDİR! Səhifənin məzmunu bura dolacaq -->
+    </div>
+</body>
+</html>
